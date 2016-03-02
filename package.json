@@ -1,0 +1,16 @@
+{
+  "name": "cast-base",
+  "private": true,
+  "version": "0.0.1",
+  "main": "cast-base.js",
+  "scripts": {
+    "start": "meteor run",
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  },
+  "keywords": [],
+  "author": "Floyd Price",
+  "license": "MIT",
+  "description": ""
+}

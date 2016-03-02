@@ -1,0 +1,7 @@
+<template name="home">
+  <div class="contacts">
+  {{#each person in people }}
+    {{> contact_card data=person }}
+  {{/each}}
+  </div>
+</template>

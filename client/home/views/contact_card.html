@@ -1,0 +1,28 @@
+<template name="contact_card">
+  <div class="contact-card">
+    <img src="{{data.avatar}}" alt="{{data.name}}">
+    <div class="meta">
+      <div class="status type-{{data.status}}">
+        {{data.status}}
+      </div>
+      <h1>{{data.name}}</h1>
+      <h2>{{data.position}}</h2>
+      <p>
+        <span class="title">Age</span>
+        <span class="cont">{{data.age}}</span>
+      </p>
+      <p>
+        <span class="title">Address</span>
+        <span class="cont">{{data.address}}</span>
+      </p>
+      <p>
+        <span class="title">E-Mail</span>
+        <span class="cont">{{data.email}}</span>
+      </p>
+      <p>
+        <span class="title">Phone</span>
+        <span class="cont">{{data.phone_number}}</span>
+      </p>
+    </div>
+  </div>
+</template>

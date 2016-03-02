@@ -1,0 +1,68 @@
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+
+  .contact-card {
+    padding: 10px;
+    flex: 1 1 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    img {
+      width: 260px;
+    }
+    .meta {
+      padding: 0px 0px 0px 50px;
+      color: #3d4451;
+      flex: 1 1 100%;
+      .status {
+        float: right;
+        background-color: #e86767;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        text-transform: none;
+        padding: 5px 8px;
+        display: inline-block;
+        position: relative;
+        top: -2px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        margin-top: 40px;
+        &.type-Customer {
+          background-color: #07aaf5;
+        }
+      }
+      h1 {
+        color: #3d4451;
+        margin: 0px;
+        font-size: 36px;
+        line-height: 1.1;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+      h2 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.1;
+        padding-bottom: 20px;
+        margin: 0px 0px 20px;
+        border-bottom: 1px solid #dedede;
+      }
+      p {
+        .title {
+          display: block;
+          width: 120px;
+          float: left;
+          color: #333;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 20px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
