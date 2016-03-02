@@ -64,6 +64,33 @@
         }
       }
     }
+    &.dummy{
+      opacity: 0.25;
+      .status{
+        display: none;
+      }
+      p .cont{
+        &:before{
+          content: ' _ ';
+          position: relative;
+          display: inline-block;
+          background-color: #bbb;
+          color: #bbbbbb;
+          width:549px;
+        }
+      }
+      h1, h2{
+        line-height: 19px;
+        &:before{
+          content: ' _ ';
+          position: relative;
+          display: inline-block;
+          background-color: #bbb;
+          color: #bbbbbb;
+          width:100%;
+        }
+      }
+    }
   }
   .loading{
     width: 500px;

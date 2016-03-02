@@ -8,6 +8,9 @@ Template.home.helpers({
   },
   isReady() {
     return Template.instance().subscriptionsReady()
+  },
+  dummyPerson: {
+    avatar: '/images/dummy-avatar.png'
   }
 })
 

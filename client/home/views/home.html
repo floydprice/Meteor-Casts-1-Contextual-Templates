@@ -5,10 +5,9 @@
         {{> contact_card data=person }}
       {{/each}}
     {{else}}
-      <div class="loading">
-        <p><i class="fa fa-refresh fa-spin"> </i></p>
-        <p>Loading...</p>
-      </div>
+      {{> contact_card data=dummyPerson isDummy=true }}
+      {{> contact_card data=dummyPerson isDummy=true }}
+      {{> contact_card data=dummyPerson isDummy=true }}
     {{/if}}
   </div>
 </template>
