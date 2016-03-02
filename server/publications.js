@@ -1,4 +1,4 @@
 Meteor.publish("people", () => {
-  Meteor._sleepForMs(2000);
+  Meteor._sleepForMs(3000);
   return People.find()
 })
