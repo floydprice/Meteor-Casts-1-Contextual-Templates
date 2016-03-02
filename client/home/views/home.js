@@ -5,6 +5,9 @@ Template.home.onCreated(function() {
 Template.home.helpers({
   people() {
     return People.find()
+  },
+  isReady() {
+    return Template.instance().subscriptionsReady()
   }
 })
 
